@@ -162,7 +162,7 @@
     }
     if (score === allQuestions.length) {
       setTimeout(function() {
-        window.location.href = 'Udders Success Page.html';
+        window.location.href = 'udders success page.html';
       }, 2000);
     }
   }
