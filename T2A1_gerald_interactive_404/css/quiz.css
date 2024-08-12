@@ -1,0 +1,85 @@
+@font-face {
+    font-family:Colby Bold;
+    src: url(../fonts/Colby-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family:Colby Regular;
+    src: url(../fonts/Colby-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family:DK Bocadillo;
+    src: url(../fonts/DK\ Bocadillo.otf) format('opentype');
+}
+body 
+{
+    font-family:"Colby Bold";
+    background-color:#FFF8E6;
+}
+h1 {
+    text-align: center;
+}
+#sub{
+    text-align: center;
+}
+.button 
+{
+    
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    float:right;
+    background-color:#A2DEDA;
+    margin: 0 2px 0 2px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:#2071AB;
+    transition:.3s ease all;
+    transform:translateY(-5px);
+}
+.button:active{
+    transform:scale(0.90);
+}
+.button a 
+{
+    text-decoration: none;
+    color:white;
+    line-height: 25px;
+}
+#container 
+{
+    width:50%;
+    margin: 150px auto;
+    padding: 50px 30px;
+    background-color: #FF9900;
+    border-radius:3px;
+    color:white;
+    box-shadow: 0 0 10px 0 #999;
+}
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 500px;
+}
+ul li
+{
+    background:#A2DEDA;
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block; 
+}
+#prev 
+{
+    display:none;
+}
+#start 
+{
+    display:none;
+    width: 100px;
+}
+input[type="radio"]{
+    cursor: pointer;
+}

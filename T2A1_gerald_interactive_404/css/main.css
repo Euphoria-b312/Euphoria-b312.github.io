@@ -1,0 +1,79 @@
+@font-face {
+    font-family:Colby Bold;
+    src: url(../fonts/Colby-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family:Colby Regular;
+    src: url(../fonts/Colby-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family:DK Bocadillo;
+    src: url(../fonts/DK\ Bocadillo.otf) format('opentype');
+}
+body{background:#FFF8E6;
+   text-align: center;
+}
+h1{
+font-family:"Colby Regular";
+font-size:400px;
+color:#FFA703;
+}
+h2{
+font-family:"DK Bocadillo";
+font-size:50px;
+color:#FF9900;
+}
+p{
+font-family:"Colby Bold";
+font-size:30px;
+color:#FF9900;
+}
+#MV{
+    margin:0 auto;
+    height:600px;
+}
+#Subs{
+    margin:0 auto;
+    height:300px;
+}
+#Buttons{
+    margin:0 auto;
+    height:200px;
+}
+#home{
+    font-size:50px;
+    background-color:#FF9900;
+    font-family:"Colby Bold";
+    color:white;
+    border-radius:10px;
+    padding:15px;
+    margin-right:200px;
+    width:370px;
+    box-shadow: 24px 18px 31px -7px rgba(0,0,0,0.45);
+}
+#story{
+    font-size:50px;
+    background-color:#FF9900;
+    font-family:"Colby Bold";
+    color:white;
+    border-radius:10px;
+    padding:15px;
+    width:370px;
+    box-shadow: 24px 18px 31px -7px rgba(0,0,0,0.45);
+}
+#home:hover{
+    background-color:#A2DEDA;
+    transition:.3s ease all;
+    transform:translateY(-10px);
+}
+#story:hover{
+    background-color:#A2DEDA;
+    transition:.3s ease all;
+    transform:translateY(-10px);
+}
+#home:active{
+    transform:scale(0.90);
+}
+#story:active{
+    transform:scale(0.90);
+}
